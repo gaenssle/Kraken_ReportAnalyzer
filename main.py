@@ -16,7 +16,7 @@ import functions
 ##------------------------------------------------------
 ## MAIN SCRIPT
 ##------------------------------------------------------
-cutoff = 2000 # Cufoff all UTFs below this number of reads (default = 20000)
+cutoff = 20000 # Cufoff all UTFs below this number of reads (default = 20000)
 
 functions.print_header()
 

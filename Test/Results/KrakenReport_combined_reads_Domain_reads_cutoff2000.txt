@@ -1,5 +1,0 @@
-Domain	Phylum	Test_control	Test_sample
-Eukaryota	Chordata	22746	9768
-Viruses	Uroviricota	44621	1231352
-Archaea	Other	0	1340
-Viruses	Other	478	41

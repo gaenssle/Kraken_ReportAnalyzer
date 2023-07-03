@@ -120,6 +120,7 @@ def count_taxonomy(input_file, output_folder, cutoff):
 	sample_list, level_list, index = get_samples(list(reads_df))
 	reads_df[sample_list] = reads_df[sample_list].astype("Int64")
 	for level in range(len(level_list)):
+		file_name = output_folder + os.path.split(input_file)[1].rsplit(".",1)[0] + "_" + level_list[level]
 		reads = reads_df.groupby(level_list[:level+1], as_index=False)[sample_list].sum()
 		species = reads_df.groupby(level_list[:level+1])[sample_list].count()
 		if level > 0:
@@ -128,7 +129,7 @@ def count_taxonomy(input_file, output_folder, cutoff):
 			df.insert(loc=level-1, column=level_list[level], value=["Other"]*len(df))
 			reads_filtered = pd.concat([reads[(reads[sample_list] >= cutoff).any(axis=1)], df])
 			reads_filtered.to_csv(file_name + "_reads_cutoff" + str(cutoff) + ".txt", sep="\t", index=False)
-		file_name = output_folder + os.path.split(input_file)[1].rsplit(".",1)[0] + "_" + level_list[level]
+		# file_name = output_folder + os.path.split(input_file)[1].rsplit(".",1)[0] + "_" + level_list[level]
 		reads.to_csv(file_name + "_reads.txt", sep="\t", index=False)
 		species.to_csv(file_name + "_species.txt", sep="\t")
 		print("Counted", level_list[level], "from", input_file)
