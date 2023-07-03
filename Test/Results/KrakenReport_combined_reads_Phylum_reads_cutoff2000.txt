@@ -1,0 +1,11 @@
+Domain	Phylum	Class	Test_control	Test_sample
+Eukaryota	Chordata	Mammalia	18955	8140
+Viruses	Uroviricota	Caudoviricetes	34189	963513
+Archaea	Candidatus Thermoplasmatota	Other	0	45
+Archaea	Euryarchaeota	Other	0	932
+Archaea	Nitrososphaerota	Other	0	31
+Archaea	Thermoproteota	Other	0	80
+Viruses	Negarnaviricota	Other	57	0
+Viruses	Nucleocytoviricota	Other	281	36
+Viruses	Peploviricota	Other	32	0
+Viruses	Pisuviricota	Other	41	0

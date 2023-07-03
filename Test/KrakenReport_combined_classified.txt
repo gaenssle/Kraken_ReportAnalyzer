@@ -1,0 +1,5 @@
+Test_control	Test_sample	Label	Name
+3635471	270126	U	unclassified
+7095291	12048904	R	root
+6932192	11568504	R1	  cellular organisms
+1330	125	R1	  other entries

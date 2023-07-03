@@ -1,0 +1,66 @@
+Domain	Phylum	Class	Order	Family	Genus	Species	Subspecies	Test_control	Test_sample
+Archaea	Euryarchaeota	Archaeoglobi	Archaeoglobales	Archaeoglobaceae	Archaeoglobus	Archaeoglobus veneficus	Archaeoglobus veneficus SNP6	0	1
+Archaea	Euryarchaeota	Halobacteria	Halobacteriales	Haloarculaceae	Haloarcula	Haloarcula sinaiiensis	Haloarcula sinaiiensis ATCC 33800	0	1
+Archaea	Euryarchaeota	Halobacteria	Halobacteriales	Haloarculaceae	Natronomonas	Natronomonas pharaonis	Natronomonas pharaonis DSM 2160	0	1
+Archaea	Euryarchaeota	Halobacteria	Halobacteriales	Halobacteriaceae	Halalkalicoccus	Halalkalicoccus jeotgali	Halalkalicoccus jeotgali B3	0	1
+Archaea	Euryarchaeota	Halobacteria	Haloferacales	Haloferacaceae	Haloferax	Haloferax mediterranei	Haloferax mediterranei ATCC 33500	0	1
+Archaea	Euryarchaeota	Halobacteria	Natrialbales	Natrialbaceae	Halopiger	Halopiger xanaduensis	Halopiger xanaduensis SH-6	0	1
+Archaea	Euryarchaeota	Halobacteria	Natrialbales	Natrialbaceae	Natrialba	Natrialba magadii	Natrialba magadii ATCC 43099	0	1
+Archaea	Euryarchaeota	Halobacteria	Natrialbales	Natrialbaceae	Natronobacterium	Natronobacterium gregoryi	Natronobacterium gregoryi SP2	0	1
+Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanobacteriaceae	Methanobrevibacter	Methanobrevibacter ruminantium	Methanobrevibacter ruminantium M1	0	1
+Archaea	Euryarchaeota	Methanococci	Methanococcales	Methanocaldococcaceae	Methanocaldococcus	Methanocaldococcus infernus	Methanocaldococcus infernus ME	0	1
+Archaea	Euryarchaeota	Methanococci	Methanococcales	Methanocaldococcaceae	Methanocaldococcus	Methanocaldococcus jannaschii	Methanocaldococcus jannaschii DSM 2661	0	1
+Archaea	Euryarchaeota	Methanococci	Methanococcales	Methanocaldococcaceae	Methanocaldococcus	Methanocaldococcus vulcanius	Methanocaldococcus vulcanius M7	0	1
+Archaea	Euryarchaeota	Methanomicrobia	Methanomicrobiales	Methanoregulaceae	Methanoregula	Methanoregula boonei	Methanoregula boonei 6A8	0	1
+Archaea	Euryarchaeota	Methanomicrobia	Methanomicrobiales	Methanoregulaceae	Methanosphaerula	Methanosphaerula palustris	Methanosphaerula palustris E1-9c	0	1
+Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanomethylovorans	Methanomethylovorans hollandica	Methanomethylovorans hollandica DSM 15978	0	1
+Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanosarcina	Methanosarcina acetivorans	Methanosarcina acetivorans C2A	0	1
+Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanosarcina	Methanosarcina barkeri	Methanosarcina barkeri MS	0	1
+Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanosarcina	Methanosarcina horonobensis	Methanosarcina horonobensis HB-1 = JCM 15518	0	1
+Archaea	Euryarchaeota	Thermococci	Thermococcales	Thermococcaceae	Thermococcus	Thermococcus guaymasensis	Thermococcus guaymasensis DSM 11113	0	1
+Archaea	Nitrososphaerota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	Nitrososphaera	Candidatus Nitrososphaera gargensis	Candidatus Nitrososphaera gargensis Ga9.2	0	1
+Archaea	Thermoproteota	Thermoprotei	Thermoproteales	Thermoproteaceae	Pyrobaculum	Pyrobaculum aerophilum	Pyrobaculum aerophilum str. IM2	0	1
+Archaea	Thermoproteota	Thermoprotei	Thermoproteales	Thermoproteaceae	Pyrobaculum	Pyrobaculum calidifontis	Pyrobaculum calidifontis JCM 11548	0	1
+Archaea	Thermoproteota	Thermoprotei	Thermoproteales	Thermoproteaceae	Pyrobaculum	Pyrobaculum neutrophilum	Pyrobaculum neutrophilum V24Sta	0	1
+Archaea	Thermoproteota	Thermoprotei	Thermoproteales	Thermoproteaceae	Vulcanisaeta	Vulcanisaeta distributa	Vulcanisaeta distributa DSM 14429	0	1
+Viruses	Negarnaviricota	Ellioviricetes	Bunyavirales	Wupedeviridae	Wumivirus	Wumivirus millepedae	Wuhan Millipede Virus 2	1	0
+Viruses	Negarnaviricota	Naldaviricetes	Lefavirales	Hytrosaviridae	Glossinavirus	Glossina hytrosavirus	Glossina pallidipes salivary gland hypertrophy virus	1	0
+Viruses	Nucleocytoviricota	Megaviricetes	Algavirales	Phycodnaviridae	Prasinovirus	Bathycoccus sp. RCC1105 virus BpV	Bathycoccus sp. RCC1105 virus BpV1	1	0
+Viruses	Nucleocytoviricota	Megaviricetes	Imitervirales	Mimiviridae	Cafeteriavirus	Cafeteria roenbergensis virus	Cafeteria roenbergensis virus BV-PW1	0	1
+Viruses	Nucleocytoviricota	Pokkesviricetes	Chitovirales	Poxviridae	Betaentomopoxvirus	Choristoneura rosaceana entomopoxvirus	Choristoneura rosaceana entomopoxvirus 'L'	1	0
+Viruses	Peploviricota	Herviviricetes	Herpesvirales	Herpesviridae	Varicellovirus	Bovine alphaherpesvirus 1	Bovine herpesvirus type 1.1	1	0
+Viruses	Pisuviricota	Pisoniviricetes	Picornavirales	Picornaviridae	Malagasivirus	Malagasivirus B	Lesavirus 2	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Ackermannviridae	Akiravirus	Akiravirus akira	Salmonella phage Akira	0	1
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Ackermannviridae	Britbratvirus	Britbratvirus britbrat	Gordonia phage BritBrat	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Ackermannviridae	Eneladusvirus	Eneladusvirus Yen904	Yersinia phage fHe-Yen9-04	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Ackermannviridae	Miltonvirus	Miltonvirus 3M	Serratia phage vB_SmaA_3M	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Ackermannviridae	Mimasvirus	Mimasvirus GAP32	Cronobacter phage vB_CsaM_GAP32	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Ackermannviridae	Pinnievirus	Pinnievirus pinnie	Mycobacterium phage Pinnie	0	1
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Ackermannviridae	Unaquatrovirus	Unaquatrovirus uv1A4	Leuconostoc phage 1-A4	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Ackermannviridae	Vapseptimavirus	Vapseptimavirus VAP7	Vibrio phage VAP7	0	1
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Autographiviridae	Maenadvirus	Maenadvirus P1	Lactobacillus phage P1	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Autographiviridae	Moabitevirus	Moabitevirus moabite	Serratia phage Moabite	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Herelleviridae	Kayvirus	Kayvirus P108	Staphylococcus phage P108	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Herelleviridae	Mooreparkvirus	Mooreparkvirus Lb3381	Lactobacillus phage Lb338-1	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Herelleviridae	Nitunavirus	Nitunavirus NIT1	Bacillus phage phiNIT1	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Herelleviridae	Sepunavirus	Sepunavirus SEP1	Staphylococcus phage phiIBB-SEP1	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Schitoviridae	Antsirabevirus	Antsirabevirus antsirabe	Mycobacterium phage Antsirabe	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Schitoviridae	Caminolopintovirus	Caminolopintovirus STGO351	Salmonella phage vB_Se_STGO-35-1	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Schitoviridae	Goslarvirus	Goslarvirus goslar	Escherichia phage vB_EcoM_Goslar	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Schitoviridae	Obolenskvirus	Obolenskvirus AbP2	Acinetobacter phage AbP2	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Schitoviridae	Polybotosvirus	Polybotosvirus Atuph07	Agrobacterium phage Atu_ph07	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Schitoviridae	Traversvirus	Traversvirus tv24B	Escherichia phage vB_EcoP_24B	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Steigviridae	Akihdevirus	Akihdevirus balticus	Cellulophaga phage phi14:2	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Straboviridae	Angelvirus	Angelvirus px29	Aeromonas phage PX29	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Straboviridae	Mosigvirus	Mosigvirus atk47	Enterobacteria phage ATK47	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Straboviridae	Pseudotevenvirus	Pseudotevenvirus lw1	Escherichia phage Lw1	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Straboviridae	Vhmlvirus	Vhmlvirus VHML	Vibrio phage VHML	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Suoliviridae	Blohavirus	Blohavirus americanus	uncultured phage cr53_1	0	1
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Suoliviridae	Burzaovirus	Burzaovirus faecalis	uncultured phage cr124_1	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Suoliviridae	Culoivirus	Culoivirus intestinalis	uncultured phage cr55_1	1	0
+Viruses	Uroviricota	Caudoviricetes	Thumleimavirales	Drexlerviridae	Gillianvirus	Gillianvirus oneinagillian	Microbacterium phage OneinaGillian	0	1
+Viruses	Uroviricota	Caudoviricetes	Thumleimavirales	Drexlerviridae	Hicfunavirus	Hicfunavirus HCF1	Citrobacter phage HCF1	0	1
+Viruses	Uroviricota	Caudoviricetes	Thumleimavirales	Hafunaviridae	Gaiavirus	Gaiavirus gaia	Mycobacterium phage Gaia	0	1
+Viruses	Uroviricota	Caudoviricetes	Thumleimavirales	Hafunaviridae	Mincapvirus	Mincapvirus HSTV2	Halorubrum sodomense tailed virus 2	0	1
+Viruses	Uroviricota	Caudoviricetes	Thumleimavirales	Hafunaviridae	Phrappuccinovirus	Phreappuccinovirus Phrappuccino	Mycobacterium phage Phrappuccino	0	1
+Viruses	Uroviricota	Caudoviricetes	Thumleimavirales	Kyanoviridae	Nilusvirus	Nilusvirus ssm2	Synechococcus phage S-SM2	0	1

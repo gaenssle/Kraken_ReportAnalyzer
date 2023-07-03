@@ -1,0 +1,30 @@
+Domain	Phylum	Class	Order	Test_control	Test_sample
+Archaea	Candidatus Thermoplasmatota	Thermoplasmata	Thermoplasmatales	0	4
+Archaea	Euryarchaeota	Archaeoglobi	Archaeoglobales	0	7
+Archaea	Euryarchaeota	Candidatus Methanoliparia	Candidatus Methanoliparales	0	4
+Archaea	Euryarchaeota	Halobacteria	Halobacteriales	0	47
+Archaea	Euryarchaeota	Halobacteria	Haloferacales	0	21
+Archaea	Euryarchaeota	Halobacteria	Natrialbales	0	29
+Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	0	11
+Archaea	Euryarchaeota	Methanococci	Methanococcales	0	10
+Archaea	Euryarchaeota	Methanomicrobia	Methanomicrobiales	0	16
+Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	0	19
+Archaea	Euryarchaeota	Methanomicrobia	Methanotrichales	0	3
+Archaea	Euryarchaeota	Thermococci	Thermococcales	0	11
+Archaea	Nitrososphaerota	Nitrososphaeria	Nitrososphaerales	0	9
+Archaea	Thermoproteota	Thermoprotei	Sulfolobales	0	7
+Archaea	Thermoproteota	Thermoprotei	Thermoproteales	0	12
+Eukaryota	Chordata	Mammalia	Primates	4	4
+Viruses	Negarnaviricota	Ellioviricetes	Bunyavirales	6	0
+Viruses	Negarnaviricota	Naldaviricetes	Lefavirales	19	0
+Viruses	Nucleocytoviricota	Megaviricetes	Algavirales	7	3
+Viruses	Nucleocytoviricota	Megaviricetes	Imitervirales	6	6
+Viruses	Nucleocytoviricota	Megaviricetes	Pimascovirales	9	0
+Viruses	Nucleocytoviricota	Naldaviricetes	Lefavirales	0	4
+Viruses	Nucleocytoviricota	Pokkesviricetes	Asfuvirales	0	4
+Viruses	Nucleocytoviricota	Pokkesviricetes	Chitovirales	7	7
+Viruses	Peploviricota	Herviviricetes	Herpesvirales	10	0
+Viruses	Pisuviricota	Pisoniviricetes	Picornavirales	5	0
+Viruses	Pisuviricota	Pisoniviricetes	Sobelivirales	4	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	92	17
+Viruses	Uroviricota	Caudoviricetes	Thumleimavirales	0	26
