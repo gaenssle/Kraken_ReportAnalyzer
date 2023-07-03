@@ -1,0 +1,30 @@
+Domain	Phylum	Class	Order	Family	Test_control	Test_sample
+Archaea	Candidatus Thermoplasmatota	Thermoplasmata	Thermoplasmatales	Other	0	27
+Archaea	Euryarchaeota	Archaeoglobi	Archaeoglobales	Other	0	11
+Archaea	Euryarchaeota	Candidatus Methanoliparia	Candidatus Methanoliparales	Other	0	3
+Archaea	Euryarchaeota	Halobacteria	Halobacteriales	Other	0	123
+Archaea	Euryarchaeota	Halobacteria	Haloferacales	Other	0	53
+Archaea	Euryarchaeota	Halobacteria	Natrialbales	Other	0	116
+Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Other	0	41
+Archaea	Euryarchaeota	Methanococci	Methanococcales	Other	0	27
+Archaea	Euryarchaeota	Methanomicrobia	Methanomicrobiales	Other	0	43
+Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Other	0	53
+Archaea	Euryarchaeota	Methanomicrobia	Methanotrichales	Other	0	8
+Archaea	Euryarchaeota	Thermococci	Thermococcales	Other	0	85
+Archaea	Nitrososphaerota	Nitrososphaeria	Nitrososphaerales	Other	0	19
+Archaea	Thermoproteota	Thermoprotei	Sulfolobales	Other	0	8
+Archaea	Thermoproteota	Thermoprotei	Thermoproteales	Other	0	44
+Eukaryota	Chordata	Mammalia	Primates	Other	11373	4884
+Viruses	Negarnaviricota	Ellioviricetes	Bunyavirales	Other	5	0
+Viruses	Negarnaviricota	Naldaviricetes	Lefavirales	Other	33	0
+Viruses	Nucleocytoviricota	Megaviricetes	Algavirales	Other	136	2
+Viruses	Nucleocytoviricota	Megaviricetes	Imitervirales	Other	12	6
+Viruses	Nucleocytoviricota	Megaviricetes	Pimascovirales	Other	12	0
+Viruses	Nucleocytoviricota	Naldaviricetes	Lefavirales	Other	0	3
+Viruses	Nucleocytoviricota	Pokkesviricetes	Asfuvirales	Other	0	3
+Viruses	Nucleocytoviricota	Pokkesviricetes	Chitovirales	Other	17	6
+Viruses	Peploviricota	Herviviricetes	Herpesvirales	Other	20	0
+Viruses	Pisuviricota	Pisoniviricetes	Picornavirales	Other	4	0
+Viruses	Pisuviricota	Pisoniviricetes	Sobelivirales	Other	21	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Other	144	16
+Viruses	Uroviricota	Caudoviricetes	Thumleimavirales	Other	0	25

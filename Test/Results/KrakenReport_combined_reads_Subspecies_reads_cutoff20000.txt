@@ -1,0 +1,66 @@
+Domain	Phylum	Class	Order	Family	Genus	Species	Subspecies	Test_control	Test_sample
+Archaea	Euryarchaeota	Archaeoglobi	Archaeoglobales	Archaeoglobaceae	Archaeoglobus	Archaeoglobus veneficus	Other	0	2
+Archaea	Euryarchaeota	Halobacteria	Halobacteriales	Haloarculaceae	Haloarcula	Haloarcula sinaiiensis	Other	0	1
+Archaea	Euryarchaeota	Halobacteria	Halobacteriales	Haloarculaceae	Natronomonas	Natronomonas pharaonis	Other	0	2
+Archaea	Euryarchaeota	Halobacteria	Halobacteriales	Halobacteriaceae	Halalkalicoccus	Halalkalicoccus jeotgali	Other	0	1
+Archaea	Euryarchaeota	Halobacteria	Haloferacales	Haloferacaceae	Haloferax	Haloferax mediterranei	Other	0	2
+Archaea	Euryarchaeota	Halobacteria	Natrialbales	Natrialbaceae	Halopiger	Halopiger xanaduensis	Other	0	2
+Archaea	Euryarchaeota	Halobacteria	Natrialbales	Natrialbaceae	Natrialba	Natrialba magadii	Other	0	5
+Archaea	Euryarchaeota	Halobacteria	Natrialbales	Natrialbaceae	Natronobacterium	Natronobacterium gregoryi	Other	0	7
+Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanobacteriaceae	Methanobrevibacter	Methanobrevibacter ruminantium	Other	0	2
+Archaea	Euryarchaeota	Methanococci	Methanococcales	Methanocaldococcaceae	Methanocaldococcus	Methanocaldococcus infernus	Other	0	1
+Archaea	Euryarchaeota	Methanococci	Methanococcales	Methanocaldococcaceae	Methanocaldococcus	Methanocaldococcus jannaschii	Other	0	1
+Archaea	Euryarchaeota	Methanococci	Methanococcales	Methanocaldococcaceae	Methanocaldococcus	Methanocaldococcus vulcanius	Other	0	1
+Archaea	Euryarchaeota	Methanomicrobia	Methanomicrobiales	Methanoregulaceae	Methanoregula	Methanoregula boonei	Other	0	1
+Archaea	Euryarchaeota	Methanomicrobia	Methanomicrobiales	Methanoregulaceae	Methanosphaerula	Methanosphaerula palustris	Other	0	1
+Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanomethylovorans	Methanomethylovorans hollandica	Other	0	1
+Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanosarcina	Methanosarcina acetivorans	Other	0	1
+Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanosarcina	Methanosarcina barkeri	Other	0	1
+Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Methanosarcina	Methanosarcina horonobensis	Other	0	3
+Archaea	Euryarchaeota	Thermococci	Thermococcales	Thermococcaceae	Thermococcus	Thermococcus guaymasensis	Other	0	1
+Archaea	Nitrososphaerota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	Nitrososphaera	Candidatus Nitrososphaera gargensis	Other	0	1
+Archaea	Thermoproteota	Thermoprotei	Thermoproteales	Thermoproteaceae	Pyrobaculum	Pyrobaculum aerophilum	Other	0	4
+Archaea	Thermoproteota	Thermoprotei	Thermoproteales	Thermoproteaceae	Pyrobaculum	Pyrobaculum calidifontis	Other	0	5
+Archaea	Thermoproteota	Thermoprotei	Thermoproteales	Thermoproteaceae	Pyrobaculum	Pyrobaculum neutrophilum	Other	0	1
+Archaea	Thermoproteota	Thermoprotei	Thermoproteales	Thermoproteaceae	Vulcanisaeta	Vulcanisaeta distributa	Other	0	1
+Viruses	Negarnaviricota	Ellioviricetes	Bunyavirales	Wupedeviridae	Wumivirus	Wumivirus millepedae	Other	1	0
+Viruses	Negarnaviricota	Naldaviricetes	Lefavirales	Hytrosaviridae	Glossinavirus	Glossina hytrosavirus	Other	1	0
+Viruses	Nucleocytoviricota	Megaviricetes	Algavirales	Phycodnaviridae	Prasinovirus	Bathycoccus sp. RCC1105 virus BpV	Other	29	0
+Viruses	Nucleocytoviricota	Megaviricetes	Imitervirales	Mimiviridae	Cafeteriavirus	Cafeteria roenbergensis virus	Other	0	1
+Viruses	Nucleocytoviricota	Pokkesviricetes	Chitovirales	Poxviridae	Betaentomopoxvirus	Choristoneura rosaceana entomopoxvirus	Other	2	0
+Viruses	Peploviricota	Herviviricetes	Herpesvirales	Herpesviridae	Varicellovirus	Bovine alphaherpesvirus 1	Other	2	0
+Viruses	Pisuviricota	Pisoniviricetes	Picornavirales	Picornaviridae	Malagasivirus	Malagasivirus B	Other	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Ackermannviridae	Akiravirus	Akiravirus akira	Other	0	1
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Ackermannviridae	Britbratvirus	Britbratvirus britbrat	Other	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Ackermannviridae	Eneladusvirus	Eneladusvirus Yen904	Other	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Ackermannviridae	Miltonvirus	Miltonvirus 3M	Other	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Ackermannviridae	Mimasvirus	Mimasvirus GAP32	Other	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Ackermannviridae	Pinnievirus	Pinnievirus pinnie	Other	0	1
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Ackermannviridae	Unaquatrovirus	Unaquatrovirus uv1A4	Other	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Ackermannviridae	Vapseptimavirus	Vapseptimavirus VAP7	Other	0	1
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Autographiviridae	Maenadvirus	Maenadvirus P1	Other	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Autographiviridae	Moabitevirus	Moabitevirus moabite	Other	2	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Herelleviridae	Kayvirus	Kayvirus P108	Other	2	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Herelleviridae	Mooreparkvirus	Mooreparkvirus Lb3381	Other	2	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Herelleviridae	Nitunavirus	Nitunavirus NIT1	Other	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Herelleviridae	Sepunavirus	Sepunavirus SEP1	Other	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Schitoviridae	Antsirabevirus	Antsirabevirus antsirabe	Other	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Schitoviridae	Caminolopintovirus	Caminolopintovirus STGO351	Other	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Schitoviridae	Goslarvirus	Goslarvirus goslar	Other	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Schitoviridae	Obolenskvirus	Obolenskvirus AbP2	Other	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Schitoviridae	Polybotosvirus	Polybotosvirus Atuph07	Other	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Schitoviridae	Traversvirus	Traversvirus tv24B	Other	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Steigviridae	Akihdevirus	Akihdevirus balticus	Other	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Straboviridae	Angelvirus	Angelvirus px29	Other	2	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Straboviridae	Mosigvirus	Mosigvirus atk47	Other	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Straboviridae	Pseudotevenvirus	Pseudotevenvirus lw1	Other	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Straboviridae	Vhmlvirus	Vhmlvirus VHML	Other	3	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Suoliviridae	Blohavirus	Blohavirus americanus	Other	0	1
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Suoliviridae	Burzaovirus	Burzaovirus faecalis	Other	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Suoliviridae	Culoivirus	Culoivirus intestinalis	Other	6	0
+Viruses	Uroviricota	Caudoviricetes	Thumleimavirales	Drexlerviridae	Gillianvirus	Gillianvirus oneinagillian	Other	0	1
+Viruses	Uroviricota	Caudoviricetes	Thumleimavirales	Drexlerviridae	Hicfunavirus	Hicfunavirus HCF1	Other	0	1
+Viruses	Uroviricota	Caudoviricetes	Thumleimavirales	Hafunaviridae	Gaiavirus	Gaiavirus gaia	Other	0	1
+Viruses	Uroviricota	Caudoviricetes	Thumleimavirales	Hafunaviridae	Mincapvirus	Mincapvirus HSTV2	Other	0	1
+Viruses	Uroviricota	Caudoviricetes	Thumleimavirales	Hafunaviridae	Phrappuccinovirus	Phreappuccinovirus Phrappuccino	Other	0	1
+Viruses	Uroviricota	Caudoviricetes	Thumleimavirales	Kyanoviridae	Nilusvirus	Nilusvirus ssm2	Other	0	1

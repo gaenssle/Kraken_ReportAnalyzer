@@ -1,0 +1,20 @@
+Domain	Phylum	Class	Order	Test_control	Test_sample
+Archaea	Candidatus Thermoplasmatota	Thermoplasmata	Other	0	36
+Archaea	Euryarchaeota	Archaeoglobi	Other	0	14
+Archaea	Euryarchaeota	Candidatus Methanoliparia	Other	0	4
+Archaea	Euryarchaeota	Halobacteria	Other	0	388
+Archaea	Euryarchaeota	Methanobacteria	Other	0	54
+Archaea	Euryarchaeota	Methanococci	Other	0	35
+Archaea	Euryarchaeota	Methanomicrobia	Other	0	138
+Archaea	Euryarchaeota	Thermococci	Other	0	113
+Archaea	Nitrososphaerota	Nitrososphaeria	Other	0	25
+Archaea	Thermoproteota	Thermoprotei	Other	0	66
+Eukaryota	Chordata	Mammalia	Other	15164	6512
+Viruses	Negarnaviricota	Ellioviricetes	Other	6	0
+Viruses	Negarnaviricota	Naldaviricetes	Other	41	0
+Viruses	Nucleocytoviricota	Megaviricetes	Other	207	11
+Viruses	Nucleocytoviricota	Naldaviricetes	Other	0	4
+Viruses	Nucleocytoviricota	Pokkesviricetes	Other	22	11
+Viruses	Peploviricota	Herviviricetes	Other	26	0
+Viruses	Pisuviricota	Pisoniviricetes	Other	33	0
+Viruses	Uroviricota	Caudoviricetes	Other	152	44
