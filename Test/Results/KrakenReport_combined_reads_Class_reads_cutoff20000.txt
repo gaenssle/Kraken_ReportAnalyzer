@@ -1,11 +1,11 @@
-Domain	Phylum	Class	Test_control	Test_sample
-Viruses	Uroviricota	Caudoviricetes	34189	963513
-Archaea	Candidatus Thermoplasmatota	Other	0	45
-Archaea	Euryarchaeota	Other	0	932
-Archaea	Nitrososphaerota	Other	0	31
-Archaea	Thermoproteota	Other	0	80
-Eukaryota	Chordata	Other	18955	8140
-Viruses	Negarnaviricota	Other	57	0
-Viruses	Nucleocytoviricota	Other	281	36
-Viruses	Peploviricota	Other	32	0
-Viruses	Pisuviricota	Other	41	0
+Domain	Phylum	Class	Test_control	Test_sample	%-Test_control	%-Test_sample
+Viruses	Uroviricota	Caudoviricetes	10426	234957	0.0073	0.0099
+Archaea	Candidatus Thermoplasmatota	Other	0	9	0.0000	0.0000
+Archaea	Euryarchaeota	Other	0	185	0.0000	0.0000
+Archaea	Nitrososphaerota	Other	0	6	0.0000	0.0000
+Archaea	Thermoproteota	Other	0	13	0.0000	0.0000
+Eukaryota	Chordata	Other	3791	1628	0.0027	0.0001
+Viruses	Negarnaviricota	Other	14	0	0.0000	0.0000
+Viruses	Nucleocytoviricota	Other	48	9	0.0000	0.0000
+Viruses	Peploviricota	Other	6	0	0.0000	0.0000
+Viruses	Pisuviricota	Other	8	0	0.0000	0.0000

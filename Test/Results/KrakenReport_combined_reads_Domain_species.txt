@@ -1,4 +1,4 @@
 Domain	Test_control	Test_sample
-Archaea	0	234
-Eukaryota	7	7
-Viruses	235	470
+Archaea	0	105
+Eukaryota	1	1
+Viruses	83	216

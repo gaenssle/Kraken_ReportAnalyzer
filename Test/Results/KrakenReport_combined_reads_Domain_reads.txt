@@ -1,4 +1,4 @@
-Domain	Test_control	Test_sample
-Archaea	0	1562
-Eukaryota	26537	11396
-Viruses	55611	1499246
+Domain	Test_control	Test_sample	%-Test_control	%-Test_sample
+Archaea	0	220	0.0000	0.0000
+Eukaryota	3791	1628	0.0027	0.0001
+Viruses	10502	234971	0.0073	0.0099

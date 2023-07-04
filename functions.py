@@ -85,6 +85,8 @@ def get_report(input_file, folder, name):
 	# Convert input into table
 	table = []
 	level = ["D", "P", "C", "O", "F", "G", "S", "S1"] 	# Based on kraken levels
+	read_index = 2 	# column of reads attributed only to this level (not any subsequent ones)
+	sum_read_index = 1	# column of sum of reads of all child levels, including itself
 	tree = [""] * 8 # same length as "level"
 	summary = []
 	classified = ["U", "R", "R1"]	# U=unclasified, R=classified, R1=cellular/other organisms
@@ -101,11 +103,12 @@ def get_report(input_file, folder, name):
 			# Add new tax name to tree & table, update the previous counter
 			tree[level.index(line[3])] = line[-1].strip()
 			previous = level.index(line[3])
-			table.append([line[1]] + tree)
+			if int(line[read_index]) > 0:
+				table.append([line[read_index]] + tree)
 
 		# Append classfied/unclassified to different table
 		elif line[3] in classified:
-			summary.append([line[1], line[3], line[-1]])
+			summary.append([line[sum_read_index], line[3], line[-1]])
 
 	# Convert both tables to pandas dataframes
 	header = [name] + ["Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species", "Subspecies"]
@@ -137,12 +140,13 @@ def add_percentages(dataframe, sample_list, index):
 
 ## Count Taxonomy and save 3 files for each tax level (reads, reads_cutoff, species)
 def count_taxonomy(input_file, output_folder, cutoff, float_format, create_excel):
-	# read in _read.txt files, get column groups and convert reads to int
+	# Read in _read.txt files, get column groups
+	# Convert reads to int and add a percentage column for each
 	reads_df = pd.read_csv(input_file, sep="\t", index_col=False)
 	sample_list, level_list, index = get_samples(list(reads_df))
-	# sample_list = sample_list[:sample_list.index("%-" + sample_list[0])] 	# get list of samples exluding the percentages
 	reads_df[sample_list] = reads_df[sample_list].astype("Int64")
 	reads_df, percentage_list = add_percentages(reads_df, sample_list, index)
+
 	# Cycle through each tax level and group/condense by that level
 	for level in range(len(level_list)):
 		output_file = os.path.join(output_folder, os.path.split(input_file)[1].rsplit(".",1)[0] + "_" + level_list[level])

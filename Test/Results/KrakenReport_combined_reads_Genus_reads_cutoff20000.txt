@@ -1,48 +1,48 @@
-Domain	Phylum	Class	Order	Family	Genus	Test_control	Test_sample
-Archaea	Candidatus Thermoplasmatota	Thermoplasmata	Thermoplasmatales	Ferroplasmaceae	Other	0	18
-Archaea	Euryarchaeota	Archaeoglobi	Archaeoglobales	Archaeoglobaceae	Other	0	8
-Archaea	Euryarchaeota	Candidatus Methanoliparia	Candidatus Methanoliparales	Candidatus Methanoliparaceae	Other	0	2
-Archaea	Euryarchaeota	Halobacteria	Halobacteriales	Haloarculaceae	Other	0	28
-Archaea	Euryarchaeota	Halobacteria	Halobacteriales	Halobacteriaceae	Other	0	48
-Archaea	Euryarchaeota	Halobacteria	Halobacteriales	Halococcaceae	Other	0	6
-Archaea	Euryarchaeota	Halobacteria	Haloferacales	Haloferacaceae	Other	0	17
-Archaea	Euryarchaeota	Halobacteria	Haloferacales	Halorubraceae	Other	0	17
-Archaea	Euryarchaeota	Halobacteria	Natrialbales	Natrialbaceae	Other	0	82
-Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanobacteriaceae	Other	0	28
-Archaea	Euryarchaeota	Methanococci	Methanococcales	Methanocaldococcaceae	Other	0	19
-Archaea	Euryarchaeota	Methanomicrobia	Methanomicrobiales	Methanomicrobiaceae	Other	0	22
-Archaea	Euryarchaeota	Methanomicrobia	Methanomicrobiales	Methanoregulaceae	Other	0	6
-Archaea	Euryarchaeota	Methanomicrobia	Methanomicrobiales	Methanospirillaceae	Other	0	1
-Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Other	0	37
-Archaea	Euryarchaeota	Methanomicrobia	Methanotrichales	Methanotrichaceae	Other	0	4
-Archaea	Euryarchaeota	Thermococci	Thermococcales	Thermococcaceae	Other	0	57
-Archaea	Nitrososphaerota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	Other	0	13
-Archaea	Thermoproteota	Thermoprotei	Sulfolobales	Sulfolobaceae	Other	0	5
-Archaea	Thermoproteota	Thermoprotei	Thermoproteales	Thermoproteaceae	Other	0	33
-Eukaryota	Chordata	Mammalia	Primates	Hominidae	Other	7582	3256
-Viruses	Negarnaviricota	Ellioviricetes	Bunyavirales	Wupedeviridae	Other	4	0
-Viruses	Negarnaviricota	Naldaviricetes	Lefavirales	Baculoviridae	Other	14	0
-Viruses	Negarnaviricota	Naldaviricetes	Lefavirales	Hytrosaviridae	Other	3	0
-Viruses	Negarnaviricota	Naldaviricetes	Lefavirales	Nimaviridae	Other	5	0
-Viruses	Nucleocytoviricota	Megaviricetes	Algavirales	Phycodnaviridae	Other	97	0
-Viruses	Nucleocytoviricota	Megaviricetes	Imitervirales	Mimiviridae	Other	2	4
-Viruses	Nucleocytoviricota	Megaviricetes	Pimascovirales	Iridoviridae	Other	6	0
-Viruses	Nucleocytoviricota	Megaviricetes	Pimascovirales	Marseilleviridae	Other	2	0
-Viruses	Nucleocytoviricota	Naldaviricetes	Lefavirales	Baculoviridae	Other	0	2
-Viruses	Nucleocytoviricota	Pokkesviricetes	Asfuvirales	Asfarviridae	Other	0	2
-Viruses	Nucleocytoviricota	Pokkesviricetes	Chitovirales	Poxviridae	Other	12	5
-Viruses	Peploviricota	Herviviricetes	Herpesvirales	Alloherpesviridae	Other	4	0
-Viruses	Peploviricota	Herviviricetes	Herpesvirales	Herpesviridae	Other	10	0
-Viruses	Pisuviricota	Pisoniviricetes	Picornavirales	Picornaviridae	Other	3	0
-Viruses	Pisuviricota	Pisoniviricetes	Sobelivirales	Solemoviridae	Other	14	0
-Viruses	Uroviricota	Caudoviricetes	Crassvirales	Ackermannviridae	Other	16	10
-Viruses	Uroviricota	Caudoviricetes	Crassvirales	Autographiviridae	Other	13	0
-Viruses	Uroviricota	Caudoviricetes	Crassvirales	Guelinviridae	Other	1	0
-Viruses	Uroviricota	Caudoviricetes	Crassvirales	Herelleviridae	Other	19	0
-Viruses	Uroviricota	Caudoviricetes	Crassvirales	Schitoviridae	Other	23	0
-Viruses	Uroviricota	Caudoviricetes	Crassvirales	Steigviridae	Other	3	0
-Viruses	Uroviricota	Caudoviricetes	Crassvirales	Straboviridae	Other	21	0
-Viruses	Uroviricota	Caudoviricetes	Crassvirales	Suoliviridae	Other	21	3
-Viruses	Uroviricota	Caudoviricetes	Thumleimavirales	Drexlerviridae	Other	0	9
-Viruses	Uroviricota	Caudoviricetes	Thumleimavirales	Hafunaviridae	Other	0	10
-Viruses	Uroviricota	Caudoviricetes	Thumleimavirales	Kyanoviridae	Other	0	3
+Domain	Phylum	Class	Order	Family	Genus	Test_control	Test_sample	%-Test_control	%-Test_sample
+Archaea	Candidatus Thermoplasmatota	Thermoplasmata	Thermoplasmatales	Ferroplasmaceae	Other	0	9	0.0000	0.0000
+Archaea	Euryarchaeota	Archaeoglobi	Archaeoglobales	Archaeoglobaceae	Other	0	3	0.0000	0.0000
+Archaea	Euryarchaeota	Candidatus Methanoliparia	Candidatus Methanoliparales	Candidatus Methanoliparaceae	Other	0	1	0.0000	0.0000
+Archaea	Euryarchaeota	Halobacteria	Halobacteriales	Haloarculaceae	Other	0	14	0.0000	0.0000
+Archaea	Euryarchaeota	Halobacteria	Halobacteriales	Halobacteriaceae	Other	0	24	0.0000	0.0000
+Archaea	Euryarchaeota	Halobacteria	Halobacteriales	Halococcaceae	Other	0	3	0.0000	0.0000
+Archaea	Euryarchaeota	Halobacteria	Haloferacales	Haloferacaceae	Other	0	8	0.0000	0.0000
+Archaea	Euryarchaeota	Halobacteria	Haloferacales	Halorubraceae	Other	0	9	0.0000	0.0000
+Archaea	Euryarchaeota	Halobacteria	Natrialbales	Natrialbaceae	Other	0	34	0.0000	0.0000
+Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanobacteriaceae	Other	0	13	0.0000	0.0000
+Archaea	Euryarchaeota	Methanococci	Methanococcales	Methanocaldococcaceae	Other	0	8	0.0000	0.0000
+Archaea	Euryarchaeota	Methanomicrobia	Methanomicrobiales	Methanomicrobiaceae	Other	0	11	0.0000	0.0000
+Archaea	Euryarchaeota	Methanomicrobia	Methanomicrobiales	Methanoregulaceae	Other	0	2	0.0000	0.0000
+Archaea	Euryarchaeota	Methanomicrobia	Methanomicrobiales	Methanospirillaceae	Other	0	1	0.0000	0.0000
+Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	Methanosarcinaceae	Other	0	16	0.0000	0.0000
+Archaea	Euryarchaeota	Methanomicrobia	Methanotrichales	Methanotrichaceae	Other	0	4	0.0000	0.0000
+Archaea	Euryarchaeota	Thermococci	Thermococcales	Thermococcaceae	Other	0	28	0.0000	0.0000
+Archaea	Nitrososphaerota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	Other	0	6	0.0000	0.0000
+Archaea	Thermoproteota	Thermoprotei	Sulfolobales	Sulfolobaceae	Other	0	2	0.0000	0.0000
+Archaea	Thermoproteota	Thermoprotei	Thermoproteales	Thermoproteaceae	Other	0	11	0.0000	0.0000
+Eukaryota	Chordata	Mammalia	Primates	Hominidae	Other	3791	1628	0.0027	0.0001
+Viruses	Negarnaviricota	Ellioviricetes	Bunyavirales	Wupedeviridae	Other	2	0	0.0000	0.0000
+Viruses	Negarnaviricota	Naldaviricetes	Lefavirales	Baculoviridae	Other	7	0	0.0000	0.0000
+Viruses	Negarnaviricota	Naldaviricetes	Lefavirales	Hytrosaviridae	Other	1	0	0.0000	0.0000
+Viruses	Negarnaviricota	Naldaviricetes	Lefavirales	Nimaviridae	Other	3	0	0.0000	0.0000
+Viruses	Nucleocytoviricota	Megaviricetes	Algavirales	Phycodnaviridae	Other	35	0	0.0000	0.0000
+Viruses	Nucleocytoviricota	Megaviricetes	Imitervirales	Mimiviridae	Other	1	2	0.0000	0.0000
+Viruses	Nucleocytoviricota	Megaviricetes	Pimascovirales	Iridoviridae	Other	3	0	0.0000	0.0000
+Viruses	Nucleocytoviricota	Megaviricetes	Pimascovirales	Marseilleviridae	Other	1	0	0.0000	0.0000
+Viruses	Nucleocytoviricota	Naldaviricetes	Lefavirales	Baculoviridae	Other	0	1	0.0000	0.0000
+Viruses	Nucleocytoviricota	Pokkesviricetes	Asfuvirales	Asfarviridae	Other	0	1	0.0000	0.0000
+Viruses	Nucleocytoviricota	Pokkesviricetes	Chitovirales	Poxviridae	Other	5	3	0.0000	0.0000
+Viruses	Peploviricota	Herviviricetes	Herpesvirales	Alloherpesviridae	Other	2	0	0.0000	0.0000
+Viruses	Peploviricota	Herviviricetes	Herpesvirales	Herpesviridae	Other	4	0	0.0000	0.0000
+Viruses	Pisuviricota	Pisoniviricetes	Picornavirales	Picornaviridae	Other	1	0	0.0000	0.0000
+Viruses	Pisuviricota	Pisoniviricetes	Sobelivirales	Solemoviridae	Other	7	0	0.0000	0.0000
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Ackermannviridae	Other	6	4	0.0000	0.0000
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Autographiviridae	Other	7	0	0.0000	0.0000
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Guelinviridae	Other	1	0	0.0000	0.0000
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Herelleviridae	Other	7	0	0.0000	0.0000
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Schitoviridae	Other	9	0	0.0000	0.0000
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Steigviridae	Other	1	0	0.0000	0.0000
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Straboviridae	Other	7	0	0.0000	0.0000
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Suoliviridae	Other	7	1	0.0000	0.0000
+Viruses	Uroviricota	Caudoviricetes	Thumleimavirales	Drexlerviridae	Other	0	4	0.0000	0.0000
+Viruses	Uroviricota	Caudoviricetes	Thumleimavirales	Hafunaviridae	Other	0	4	0.0000	0.0000
+Viruses	Uroviricota	Caudoviricetes	Thumleimavirales	Kyanoviridae	Other	0	1	0.0000	0.0000

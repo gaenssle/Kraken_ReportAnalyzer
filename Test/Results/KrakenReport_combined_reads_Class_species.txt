@@ -1,20 +1,20 @@
 Domain	Phylum	Class	Test_control	Test_sample
-Archaea	Candidatus Thermoplasmatota	Thermoplasmata	0	5
-Archaea	Euryarchaeota	Archaeoglobi	0	8
-Archaea	Euryarchaeota	Candidatus Methanoliparia	0	5
-Archaea	Euryarchaeota	Halobacteria	0	98
-Archaea	Euryarchaeota	Methanobacteria	0	12
-Archaea	Euryarchaeota	Methanococci	0	11
-Archaea	Euryarchaeota	Methanomicrobia	0	39
-Archaea	Euryarchaeota	Thermococci	0	12
-Archaea	Nitrososphaerota	Nitrososphaeria	0	10
-Archaea	Thermoproteota	Thermoprotei	0	20
-Eukaryota	Chordata	Mammalia	5	5
-Viruses	Negarnaviricota	Ellioviricetes	7	0
-Viruses	Negarnaviricota	Naldaviricetes	20	0
-Viruses	Nucleocytoviricota	Megaviricetes	23	10
-Viruses	Nucleocytoviricota	Naldaviricetes	0	8
-Viruses	Nucleocytoviricota	Pokkesviricetes	8	12
-Viruses	Peploviricota	Herviviricetes	11	0
-Viruses	Pisuviricota	Pisoniviricetes	10	0
-Viruses	Uroviricota	Caudoviricetes	150	437
+Archaea	Candidatus Thermoplasmatota	Thermoplasmata	0	1
+Archaea	Euryarchaeota	Archaeoglobi	0	2
+Archaea	Euryarchaeota	Candidatus Methanoliparia	0	1
+Archaea	Euryarchaeota	Halobacteria	0	54
+Archaea	Euryarchaeota	Methanobacteria	0	5
+Archaea	Euryarchaeota	Methanococci	0	4
+Archaea	Euryarchaeota	Methanomicrobia	0	17
+Archaea	Euryarchaeota	Thermococci	0	6
+Archaea	Nitrososphaerota	Nitrososphaeria	0	4
+Archaea	Thermoproteota	Thermoprotei	0	6
+Eukaryota	Chordata	Mammalia	1	1
+Viruses	Negarnaviricota	Ellioviricetes	2	0
+Viruses	Negarnaviricota	Naldaviricetes	8	0
+Viruses	Nucleocytoviricota	Megaviricetes	8	3
+Viruses	Nucleocytoviricota	Naldaviricetes	0	2
+Viruses	Nucleocytoviricota	Pokkesviricetes	2	4
+Viruses	Peploviricota	Herviviricetes	3	0
+Viruses	Pisuviricota	Pisoniviricetes	2	0
+Viruses	Uroviricota	Caudoviricetes	58	206
