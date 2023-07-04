@@ -32,7 +32,7 @@ get = True # Default for count taxonomy
 if file_type == "report":
 	for input_file in file_list:
 		name = input_file.rsplit(".",1)[0]
-		output_file = folder + input_file.rsplit(".",1)[0] + "_reads.txt"
+		output_file = os.path.join(folder, input_file.rsplit(".",1)[0] + "_reads.txt")
 		if file_list.index(input_file) == 0:
 			dataframe, classified = functions.get_report(input_file, folder, name)
 		else:
@@ -40,7 +40,7 @@ if file_type == "report":
 			dataframe = functions.merge_dataframes(dataframe, append, name, split_on="Domain")
 			classified = functions.merge_dataframes(classified, append_classified, name, split_on="Label")
 	if len(file_list) > 1:
-		output_file = folder + "KrakenReport_combined_reads.txt"
+		output_file = os.path.join(folder, "KrakenReport_combined_reads.txt")
 		file_list = ["KrakenReport_combined_reads.txt"]
 		file_type = "combined"
 	dataframe.to_csv(output_file, sep="\t", index=False)
@@ -51,11 +51,11 @@ if file_type == "report":
 
 ## Count Taxonomy
 if file_type == "txt" or get:
-	output_folder = functions.create_folder(folder +"Results/")
+	output_folder = functions.create_folder(os.path.join(folder, "Results"))
 	for input_file in file_list:
 		if file_type == "report":
 			input_file = input_file.rsplit(".",1)[0] + "_reads.txt"
 		print(input_file)
-		functions.count_taxonomy(folder + input_file, output_folder, cutoff)
+		functions.count_taxonomy(os.path.join(folder, input_file), output_folder, cutoff)
 
 print("\n","-"*75,"\n End of program\n","-"*75,"\n","-"*75)

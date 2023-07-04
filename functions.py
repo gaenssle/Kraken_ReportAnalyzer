@@ -57,13 +57,13 @@ def get_files(given_input):
 		given_input = input("\nPlease enter an existing file or folder"
 		"\n\nYour current directory is:\n%s\n" % os.path.split(os.path.abspath(__file__))[0])
 	if os.path.isdir(given_input):
-		folder = given_input + "\\"
+		folder = given_input
 		file_type = "report"
 		for file in os.listdir(folder):
 			if file.endswith(".report"):
 				file_list.append(file)
 	elif os.path.isfile(given_input):
-		folder = os.path.split(given_input)[0] + "\\"
+		folder = os.path.split(given_input)[0]
 		file_type = given_input.rsplit(".",1)[1]
 		file_list.append(os.path.split(given_input)[1])
 	return(file_list, folder, file_type)
@@ -76,7 +76,7 @@ def get_files(given_input):
 # Import each report separately and save it as _Reads.txt
 def get_report(input_file, folder, name):
 	# import file
-	with open(folder + input_file, 'r') as file:
+	with open(os.path.join(folder, input_file), 'r') as file:
 		print("\nImport File:", input_file)
 		data = file.read().splitlines()
 
@@ -120,7 +120,7 @@ def count_taxonomy(input_file, output_folder, cutoff):
 	sample_list, level_list, index = get_samples(list(reads_df))
 	reads_df[sample_list] = reads_df[sample_list].astype("Int64")
 	for level in range(len(level_list)):
-		file_name = output_folder + os.path.split(input_file)[1].rsplit(".",1)[0] + "_" + level_list[level]
+		file_name = os.path.join(output_folder, os.path.split(input_file)[1].rsplit(".",1)[0] + "_" + level_list[level])
 		reads = reads_df.groupby(level_list[:level+1], as_index=False)[sample_list].sum()
 		species = reads_df.groupby(level_list[:level+1])[sample_list].count()
 		if level > 0:
