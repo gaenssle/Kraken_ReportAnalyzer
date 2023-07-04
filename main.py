@@ -7,7 +7,6 @@
 ##------------------------------------------------------
 import sys
 import os
-import pandas as pd
 
 # Own modules
 import functions
@@ -25,7 +24,8 @@ try:
 	file_list, folder, file_type = functions.get_files(sys.argv[1])
 except IndexError:
 	file_list, folder, file_type = functions.get_files("")
-get = True # Default for count taxonomy
+get_tax = True # Default for count taxonomy
+create_excel = False # Default to not export the count files to an excel
 
 
 ## Input and extract kraken.report files, export into table(s)
@@ -46,16 +46,15 @@ if file_type == "report":
 	dataframe.to_csv(output_file, sep="\t", index=False)
 	classified.to_csv(output_file.rsplit("_",1)[0] + "_classified.txt", sep="\t", index=False)
 	print("Data saved as:", output_file)
-	get = functions.get_taxonomy()
-
+	get_tax = functions.question_to_user("Do you want to count the taxonomy?")
 
 ## Count Taxonomy
-if file_type == "txt" or get:
+if file_type == "txt" or get_tax:
+	create_excel = functions.question_to_user("Do you want the count files exported to excel?\n(Will take longer)")
 	output_folder = functions.create_folder(os.path.join(folder, "Results"))
 	for input_file in file_list:
 		if file_type == "report":
 			input_file = input_file.rsplit(".",1)[0] + "_reads.txt"
-		print(input_file)
-		functions.count_taxonomy(os.path.join(folder, input_file), output_folder, cutoff)
+		functions.count_taxonomy(os.path.join(folder, input_file), output_folder, cutoff, create_excel)
 
 print("\n","-"*75,"\n End of program\n","-"*75,"\n","-"*75)

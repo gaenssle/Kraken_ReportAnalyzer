@@ -2,7 +2,6 @@
 # Written in Python 3.7 in 2023 by A.L.O. Gaenssle
 # KRAKEN DATA EXTRACTOR - FUNCTIONS
 
-import sys
 import os
 import pandas as pd
 
@@ -15,10 +14,8 @@ def print_header():
 	print("\tTHE KRONA DATA EXTRACTOR\tby A.L.O. Gaenssle, 2023")
 	print("", "-"*75,"\n")
 
-# Ask if the taxonomy should be counted
-def get_taxonomy():
-	answer = input("\nDo you want to count the taxonomy?"
-		"\n(y=yes, n=no)\n")
+def question_to_user(question):
+	answer = input(f"\n{question}\n(y=yes, n=no)\n")
 	while answer not in ("y", "n"):
 		answer = input("\nPlease enter 'y' or 'n'!\n")
 	if answer == "y":
@@ -26,6 +23,18 @@ def get_taxonomy():
 	else:
 		get = False
 	return(get)
+
+# # Ask if the taxonomy should be counted
+# def get_taxonomy():
+# 	answer = input("\nDo you want to count the taxonomy?"
+# 		"\n(y=yes, n=no)\n")
+# 	while answer not in ("y", "n"):
+# 		answer = input("\nPlease enter 'y' or 'n'!\n")
+# 	if answer == "y":
+# 		get = True
+# 	else:
+# 		get = False
+# 	return(get)
 
 # Create new Folder
 def create_folder(new_path):
@@ -66,7 +75,7 @@ def get_files(given_input):
 		folder = os.path.split(given_input)[0]
 		file_type = given_input.rsplit(".",1)[1]
 		file_list.append(os.path.split(given_input)[1])
-	return(file_list, folder, file_type)
+	return(sorted(file_list), folder, file_type)
 
 
 ##------------------------------------------------------
@@ -115,21 +124,32 @@ def merge_dataframes(dataframe, append, name, split_on):
 ##------------------------------------------------------
 
 # Count Taxonomy and save 3 files for each tax level (reads, reads_cutoff, species)
-def count_taxonomy(input_file, output_folder, cutoff):
+def count_taxonomy(input_file, output_folder, cutoff, create_excel):
 	reads_df = pd.read_csv(input_file, sep="\t", index_col=False)
 	sample_list, level_list, index = get_samples(list(reads_df))
 	reads_df[sample_list] = reads_df[sample_list].astype("Int64")
 	for level in range(len(level_list)):
 		file_name = os.path.join(output_folder, os.path.split(input_file)[1].rsplit(".",1)[0] + "_" + level_list[level])
 		reads = reads_df.groupby(level_list[:level+1], as_index=False)[sample_list].sum()
-		species = reads_df.groupby(level_list[:level+1])[sample_list].count()
+		species = reads_df.groupby(level_list[:level+1], as_index=False)[sample_list].count()
 		if level > 0:
 			df = reads[(reads[sample_list] < cutoff).all(axis=1)]
 			df = df.groupby(level_list[:level], as_index=False)[sample_list].sum()
 			df.insert(loc=level-1, column=level_list[level], value=["Other"]*len(df))
 			reads_filtered = pd.concat([reads[(reads[sample_list] >= cutoff).any(axis=1)], df])
 			reads_filtered.to_csv(file_name + "_reads_cutoff" + str(cutoff) + ".txt", sep="\t", index=False)
-		# file_name = output_folder + os.path.split(input_file)[1].rsplit(".",1)[0] + "_" + level_list[level]
+			if create_excel:
+				create_excel_file(reads_filtered, level_list[level], level-1, input_file.rsplit(".",1)[0] + "_cutoff" + str(cutoff) + ".xlsx")
 		reads.to_csv(file_name + "_reads.txt", sep="\t", index=False)
 		species.to_csv(file_name + "_species.txt", sep="\t")
+		if create_excel:
+			create_excel_file(reads, level_list[level], level, input_file.rsplit(".",1)[0] + ".xlsx")
+			create_excel_file(species, level_list[level], level, input_file.rsplit(".",1)[0] + "_species.xlsx")
 		print("Counted", level_list[level], "from", input_file)
+
+def create_excel_file(data, name, index, output_file, mode="a"):
+	if index == 0:
+		mode = "w"
+		print("Create excel file:", output_file)
+	with pd.ExcelWriter(output_file, mode=mode, engine="openpyxl") as writer:
+		data.to_excel(writer, sheet_name=name, index=False)
