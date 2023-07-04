@@ -121,40 +121,50 @@ def merge_dataframes(dataframe, append, name, split_on):
 	dataframe = dataframe[sample_list + [name] + level_list]
 	return(dataframe)
 
+## Calculate percentages for reads and add 1/sample
+def add_percentages(dataframe, sample_list, index):
+	percentage_list = []
+	for sample in sample_list:
+		sum = dataframe[sample].sum() * 100
+		dataframe.insert(loc=index, column="%-" + sample, value=dataframe[sample] / sum)
+		percentage_list.append("%-" + sample)
+		index += 1
+	return(dataframe, percentage_list)
 
 ##------------------------------------------------------
 ## TAXONOMY
 ##------------------------------------------------------
 
 ## Count Taxonomy and save 3 files for each tax level (reads, reads_cutoff, species)
-def count_taxonomy(input_file, output_folder, cutoff, create_excel):
-	# read in _read files, get column groups and convert reads to int
+def count_taxonomy(input_file, output_folder, cutoff, float_format, create_excel):
+	# read in _read.txt files, get column groups and convert reads to int
 	reads_df = pd.read_csv(input_file, sep="\t", index_col=False)
 	sample_list, level_list, index = get_samples(list(reads_df))
+	# sample_list = sample_list[:sample_list.index("%-" + sample_list[0])] 	# get list of samples exluding the percentages
 	reads_df[sample_list] = reads_df[sample_list].astype("Int64")
-
+	reads_df, percentage_list = add_percentages(reads_df, sample_list, index)
 	# Cycle through each tax level and group/condense by that level
 	for level in range(len(level_list)):
 		output_file = os.path.join(output_folder, os.path.split(input_file)[1].rsplit(".",1)[0] + "_" + level_list[level])
-		reads = reads_df.groupby(level_list[:level+1], as_index=False)[sample_list].sum()
+		reads = reads_df.groupby(level_list[:level+1], as_index=False)[sample_list + percentage_list].sum()
 		species = reads_df.groupby(level_list[:level+1], as_index=False)[sample_list].count()
 
 		# For all levels > "Domain" filter out all rows where none of the samples have reads > the _cutoff
 		# Sum the filtered out rows as "Other" and add them to the original dataframe
 		if level > 0:
 			df = reads[(reads[sample_list] < cutoff).all(axis=1)]
-			df = df.groupby(level_list[:level], as_index=False)[sample_list].sum()
+			df = df.groupby(level_list[:level], as_index=False)[sample_list + percentage_list].sum()
 			df.insert(loc=level-1, column=level_list[level], value=["Other"]*len(df))
 			reads_filtered = pd.concat([reads[(reads[sample_list] >= cutoff).any(axis=1)], df])
 
 			# Save new filered dataframes as csv or append them to an excel (if wanted)
-			reads_filtered.to_csv(output_file + "_reads_cutoff" + str(cutoff) + ".txt", sep="\t", index=False)
+			reads_filtered.to_csv(output_file + "_reads_cutoff" + str(cutoff) + ".txt", sep="\t", index=False, float_format=float_format)
 			if create_excel:
 				create_excel_file(reads_filtered, level_list[level], level-1, input_file.rsplit(".",1)[0] + "_cutoff" + str(cutoff) + ".xlsx")
 
 		# Save reads and specious counts as csv or append them to an excel (if wanted)
-		reads.to_csv(output_file + "_reads.txt", sep="\t", index=False)
-		species.to_csv(output_file + "_species.txt", sep="\t")
+		reads.to_csv(output_file + "_reads.txt", sep="\t", index=False, float_format=float_format)
+		species.to_csv(output_file + "_species.txt", sep="\t", index=False, float_format=float_format)
 		if create_excel:
 			create_excel_file(reads, level_list[level], level, input_file.rsplit(".",1)[0] + ".xlsx")
 			create_excel_file(species, level_list[level], level, input_file.rsplit(".",1)[0] + "_species.xlsx")

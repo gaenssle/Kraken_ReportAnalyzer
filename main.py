@@ -16,6 +16,7 @@ import functions
 ## MAIN SCRIPT
 ##------------------------------------------------------
 cutoff = 20000 # Cufoff all UTFs below this number of reads (default = 20000)
+float_format = "%.4f" # Format of floats (percentages) in the files
 
 functions.print_header()
 
@@ -64,6 +65,6 @@ if file_type == "txt" or get_tax:
 		# If the input was originally a single .report file, find the just created file
 		if file_type == "report":
 			input_file = input_file.rsplit(".",1)[0] + "_reads.txt"
-		functions.count_taxonomy(os.path.join(folder, input_file), output_folder, cutoff, create_excel)
+		functions.count_taxonomy(os.path.join(folder, input_file), output_folder, cutoff, float_format, create_excel)
 
 print("\n","-"*75,"\n End of program\n","-"*75,"\n","-"*75)
