@@ -84,35 +84,57 @@ def get_report(input_file, folder, name):
 
 	# Convert input into table
 	table = []
-	level = ["D", "P", "C", "O", "F", "G", "S", "S1"] 	# Based on kraken levels
+	level = ["D", "P", "C", "O", "F", "G", "S"] 	# Based on kraken levels
 	read_index = 2 	# column of reads attributed only to this level (not any subsequent ones)
 	sum_read_index = 1	# column of sum of reads of all child levels, including itself
-	tree = [""] * 8 # same length as "level"
+	tree = ["-"] * 7 # same length as "level"
+	index_list = [0] * 7
 	summary = []
-	classified = ["U", "R", "R1"]	# U=unclasified, R=classified, R1=cellular/other organisms
+	classified = ["U", "R", "R1", "R2"]	# U=unclasified, R=classified, R1=cellular/other organisms, R2=other sequences (used as STOP)
 	previous = 0
 	for line in data:
 		line = line.split("\t")
-		if line[3] in level:
+		line[3].replace("K", "D1") # Viruses & Eukaryota have kingdoms level beneath the domain level
 
-			# Delete all tax names that are higher than the new one
-			if level.index(line[3]) < previous:
-				for delete in range(level.index(line[3])+1,len(tree)):
-					tree[delete] = ""
+		# Append classfied/unclassified to summary table
+		if line[3] in classified:
+			if line[3] != "R2":
+				summary.append([int(line[sum_read_index]), line[3], line[-1]])
+			else:
+				break	# To exclude the rare non-cellular organisms
 
-			# Add new tax name to tree & table, update the previous counter
-			tree[level.index(line[3])] = line[-1].strip()
-			previous = level.index(line[3])
+		# Very rarely other taxonomic level occur, their reads are added to the R1 level
+		elif line[3][0] not in level:
 			if int(line[read_index]) > 0:
-				table.append([line[read_index]] + tree)
+				summary[-1][0] += int(line[read_index])
+			print("Not in Level" ,line[3], line[read_index])
 
-		# Append classfied/unclassified to different table
-		elif line[3] in classified:
-			summary.append([line[sum_read_index], line[3], line[-1]])
+		else:
+			# Native level dirstibution is used to make the phylogeny tree
+			if len(line[3]) == 1:
+				# Delete all tax names that are higher than the new one
+				if level.index(line[3]) < previous:
+					for delete in range(level.index(line[3])+1,len(tree)):
+						tree[delete] = "-"
+						index_list[delete] = 0
+
+				# Add new tax name to tree & table
+				# Update the previous & index counter
+				tree[level.index(line[3])] = line[-1].strip()
+				previous = level.index(line[3])
+				table.append([int(line[read_index])] + tree)
+				index_list[level.index(line[3])] = len(table) - 1
+
+			# Add reads of all sub-level to the parent level using the index counter
+			else:
+				if int(line[read_index]) > 0:
+					add_index = index_list[level.index(line[3][0])]
+					table[add_index][0] += int(line[read_index])
 
 	# Convert both tables to pandas dataframes
-	header = [name] + ["Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species", "Subspecies"]
+	header = [name] + ["Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species"]
 	df_data = pd.DataFrame(table,columns=header)
+	df_data = df_data[(df_data[name] > 0)]	# delete rows with 0 reads
 	df_summary = pd.DataFrame(summary, columns=[name] + ["Label", "Name"])
 	return(df_data, df_summary)
 
@@ -128,8 +150,8 @@ def merge_dataframes(dataframe, append, name, split_on):
 def add_percentages(dataframe, sample_list, index):
 	percentage_list = []
 	for sample in sample_list:
-		sum = dataframe[sample].sum() * 100
-		dataframe.insert(loc=index, column="%-" + sample, value=dataframe[sample] / sum)
+		sum = dataframe[sample].sum()
+		dataframe.insert(loc=index, column="%-" + sample, value=dataframe[sample] / sum * 100)
 		percentage_list.append("%-" + sample)
 		index += 1
 	return(dataframe, percentage_list)
