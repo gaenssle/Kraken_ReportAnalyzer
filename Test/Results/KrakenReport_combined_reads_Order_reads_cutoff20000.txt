@@ -1,20 +1,23 @@
 Domain	Phylum	Class	Order	Test_control	Test_sample	%-Test_control	%-Test_sample
-Archaea	Candidatus Thermoplasmatota	Thermoplasmata	Other	0	9	0.0000	0.0000
-Archaea	Euryarchaeota	Archaeoglobi	Other	0	3	0.0000	0.0000
-Archaea	Euryarchaeota	Candidatus Methanoliparia	Other	0	1	0.0000	0.0000
-Archaea	Euryarchaeota	Halobacteria	Other	0	95	0.0000	0.0000
-Archaea	Euryarchaeota	Methanobacteria	Other	0	13	0.0000	0.0000
-Archaea	Euryarchaeota	Methanococci	Other	0	8	0.0000	0.0000
-Archaea	Euryarchaeota	Methanomicrobia	Other	0	34	0.0000	0.0000
-Archaea	Euryarchaeota	Thermococci	Other	0	28	0.0000	0.0000
-Archaea	Nitrososphaerota	Nitrososphaeria	Other	0	6	0.0000	0.0000
-Archaea	Thermoproteota	Thermoprotei	Other	0	13	0.0000	0.0000
-Eukaryota	Chordata	Mammalia	Other	3791	1628	0.0027	0.0001
-Viruses	Negarnaviricota	Ellioviricetes	Other	2	0	0.0000	0.0000
-Viruses	Negarnaviricota	Naldaviricetes	Other	12	0	0.0000	0.0000
-Viruses	Nucleocytoviricota	Megaviricetes	Other	43	3	0.0000	0.0000
-Viruses	Nucleocytoviricota	Naldaviricetes	Other	0	1	0.0000	0.0000
-Viruses	Nucleocytoviricota	Pokkesviricetes	Other	5	4	0.0000	0.0000
-Viruses	Peploviricota	Herviviricetes	Other	6	0	0.0000	0.0000
-Viruses	Pisuviricota	Pisoniviricetes	Other	8	0	0.0000	0.0000
-Viruses	Uroviricota	Caudoviricetes	Other	46	14	0.0000	0.0000
+Viruses	Uroviricota	Caudoviricetes	-	10384	267824	72.6002	99.3033
+Archaea	Candidatus Thermoplasmatota	Thermoplasmata	Other	0	9	0.0000	0.0033
+Archaea	Euryarchaeota	Archaeoglobi	Other	0	3	0.0000	0.0011
+Archaea	Euryarchaeota	Candidatus Methanoliparia	Other	0	1	0.0000	0.0004
+Archaea	Euryarchaeota	Halobacteria	Other	0	99	0.0000	0.0367
+Archaea	Euryarchaeota	Methanobacteria	Other	0	13	0.0000	0.0048
+Archaea	Euryarchaeota	Methanococci	Other	0	8	0.0000	0.0030
+Archaea	Euryarchaeota	Methanomicrobia	Other	0	34	0.0000	0.0126
+Archaea	Euryarchaeota	Thermococci	Other	0	28	0.0000	0.0104
+Archaea	Nitrososphaerota	-	Other	0	7	0.0000	0.0026
+Archaea	Nitrososphaerota	Nitrososphaeria	Other	0	6	0.0000	0.0022
+Archaea	Thermoproteota	Thermoprotei	Other	0	14	0.0000	0.0052
+Eukaryota	Chordata	Mammalia	Other	3791	1628	26.5049	0.6036
+Viruses	-	-	Other	0	5	0.0000	0.0019
+Viruses	Negarnaviricota	Ellioviricetes	Other	2	0	0.0140	0.0000
+Viruses	Negarnaviricota	Naldaviricetes	Other	12	0	0.0839	0.0000
+Viruses	Nucleocytoviricota	Megaviricetes	Other	47	3	0.3286	0.0011
+Viruses	Nucleocytoviricota	Naldaviricetes	Other	0	2	0.0000	0.0007
+Viruses	Nucleocytoviricota	Pokkesviricetes	Other	5	4	0.0350	0.0015
+Viruses	Peploviricota	Herviviricetes	Other	6	0	0.0419	0.0000
+Viruses	Pisuviricota	Pisoniviricetes	Other	8	0	0.0559	0.0000
+Viruses	Uroviricota	Caudoviricetes	Other	48	15	0.3356	0.0056

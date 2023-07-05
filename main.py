@@ -50,7 +50,7 @@ if file_type == "report":
 		file_type = "combined"
 
 	# Export created dataframes to .txt files
-	dataframe.to_csv(output_file, sep="\t", index=False)
+	dataframe.to_csv(output_file, sep="\t", index=False, float_format="%.0f")
 	classified.to_csv(output_file.rsplit("_",1)[0] + "_classified.txt", sep="\t", index=False)
 	print("Data saved as:", output_file)
 	get_tax = functions.question_to_user("Do you want to count the taxonomy?")

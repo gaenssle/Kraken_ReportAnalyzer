@@ -1,11 +1,11 @@
 Domain	Phylum	Test_control	Test_sample
 Archaea	Candidatus Thermoplasmatota	0	1
-Archaea	Euryarchaeota	0	89
+Archaea	Euryarchaeota	0	77
 Archaea	Nitrososphaerota	0	9
 Archaea	Thermoproteota	0	6
 Eukaryota	Chordata	1	1
 Viruses	Negarnaviricota	10	0
-Viruses	Nucleocytoviricota	10	9
+Viruses	Nucleocytoviricota	10	8
 Viruses	Peploviricota	3	0
 Viruses	Pisuviricota	2	0
-Viruses	Uroviricota	58	206
+Viruses	Uroviricota	51	183

@@ -1,5 +1,5 @@
 Domain	Phylum	Test_control	Test_sample	%-Test_control	%-Test_sample
-Viruses	Uroviricota	10426	234957	0.0073	0.0099
-Archaea	Other	0	220	0.0000	0.0000
-Eukaryota	Other	3791	1628	0.0027	0.0001
-Viruses	Other	76	9	0.0001	0.0000
+Viruses	Uroviricota	10432	267839	72.9357	99.3089
+Archaea	Other	0	222	0.0000	0.0823
+Eukaryota	Other	3791	1628	26.5049	0.6036
+Viruses	Other	80	14	0.5593	0.0052

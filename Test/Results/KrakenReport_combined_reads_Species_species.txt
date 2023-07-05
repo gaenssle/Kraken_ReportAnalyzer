@@ -77,6 +77,11 @@ Archaea	Euryarchaeota	Thermococci	Thermococcales	Thermococcaceae	Thermococcus	Th
 Archaea	Euryarchaeota	Thermococci	Thermococcales	Thermococcaceae	Thermococcus	Thermococcus radiotolerans	0	1
 Archaea	Euryarchaeota	Thermococci	Thermococcales	Thermococcaceae	Thermococcus	Thermococcus sp. 5-4	0	1
 Archaea	Euryarchaeota	Thermococci	Thermococcales	Thermococcaceae	Thermococcus	Thermococcus sp. P6	0	1
+Archaea	Nitrososphaerota	-	Nitrosopumilales	Nitrosopumilaceae	Nitrosopumilus	Candidatus Nitrosopumilus sediminis	0	1
+Archaea	Nitrososphaerota	-	Nitrosopumilales	Nitrosopumilaceae	Nitrosopumilus	Candidatus Nitrosopumilus sp. SW	0	1
+Archaea	Nitrososphaerota	-	Nitrosopumilales	Nitrosopumilaceae	Nitrosopumilus	Nitrosopumilus cobalaminigenes	0	1
+Archaea	Nitrososphaerota	-	Nitrosopumilales	Nitrosopumilaceae	Nitrosopumilus	Nitrosopumilus maritimus	0	1
+Archaea	Nitrososphaerota	-	Nitrosopumilales	Nitrosopumilaceae	Nitrosopumilus	Nitrosopumilus oxyclinae	0	1
 Archaea	Nitrososphaerota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	Candidatus Nitrosocosmicus	Candidatus Nitrosocosmicus hydrocola	0	1
 Archaea	Nitrososphaerota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	Candidatus Nitrosocosmicus	Candidatus Nitrosocosmicus oleophilus	0	1
 Archaea	Nitrososphaerota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	Nitrososphaera	Candidatus Nitrososphaera gargensis	0	1
@@ -93,18 +98,22 @@ Viruses	Negarnaviricota	Ellioviricetes	Bunyavirales	Wupedeviridae	Wumivirus	Wumi
 Viruses	Negarnaviricota	Naldaviricetes	Lefavirales	Baculoviridae	Alphabaculovirus	Peridroma alphabaculovirus	1	0
 Viruses	Negarnaviricota	Naldaviricetes	Lefavirales	Baculoviridae	Alphabaculovirus	Trichoplusia ni single nucleopolyhedrovirus	1	0
 Viruses	Negarnaviricota	Naldaviricetes	Lefavirales	Baculoviridae	Betabaculovirus	Plutella xylostella granulovirus	1	0
+Viruses	Negarnaviricota	Naldaviricetes	Lefavirales	Bicaudaviridae	-	Sulfolobus virus STSV1	1	0
 Viruses	Negarnaviricota	Naldaviricetes	Lefavirales	Hytrosaviridae	Glossinavirus	Glossina hytrosavirus	1	0
 Viruses	Negarnaviricota	Naldaviricetes	Lefavirales	Nimaviridae	Pandoravirus	Pandoravirus inopinatum	1	0
 Viruses	Negarnaviricota	Naldaviricetes	Lefavirales	Nimaviridae	Whispovirus	Mycoplasma phage phiMFV1	1	0
 Viruses	Negarnaviricota	Naldaviricetes	Lefavirales	Nimaviridae	Whispovirus	White spot syndrome virus	1	0
+Viruses	Nucleocytoviricota	Megaviricetes	Algavirales	Phycodnaviridae	-	Orpheovirus IHUMI-LCC2	0	1
 Viruses	Nucleocytoviricota	Megaviricetes	Algavirales	Phycodnaviridae	Prasinovirus	Bathycoccus sp. RCC1105 virus BpV	1	0
 Viruses	Nucleocytoviricota	Megaviricetes	Algavirales	Phycodnaviridae	Prasinovirus	Chrysochromulina ericina virus	1	0
 Viruses	Nucleocytoviricota	Megaviricetes	Algavirales	Phycodnaviridae	Prasinovirus	Orpheovirus IHUMI-LCC2	1	0
+Viruses	Nucleocytoviricota	Megaviricetes	Imitervirales	Mimiviridae	-	Moumouvirus	1	0
 Viruses	Nucleocytoviricota	Megaviricetes	Imitervirales	Mimiviridae	Cafeteriavirus	Cafeteria roenbergensis virus	0	1
 Viruses	Nucleocytoviricota	Megaviricetes	Imitervirales	Mimiviridae	Mimivirus	Megavirus chiliensis	1	0
 Viruses	Nucleocytoviricota	Megaviricetes	Pimascovirales	Iridoviridae	Iridovirus	Invertebrate iridescent virus 6	1	0
 Viruses	Nucleocytoviricota	Megaviricetes	Pimascovirales	Iridoviridae	Lymphocystivirus	Lymphocystis disease virus Sa	1	0
 Viruses	Nucleocytoviricota	Megaviricetes	Pimascovirales	Marseilleviridae	Marseillevirus	Marseillevirus marseillevirus	1	0
+Viruses	Nucleocytoviricota	Naldaviricetes	-	Nimaviridae	Whispovirus	White spot syndrome virus	0	1
 Viruses	Nucleocytoviricota	Naldaviricetes	Lefavirales	Baculoviridae	Alphabaculovirus	Buzura suppressaria nucleopolyhedrovirus	0	1
 Viruses	Nucleocytoviricota	Pokkesviricetes	Asfuvirales	Asfarviridae	Asfivirus	African swine fever virus	0	1
 Viruses	Nucleocytoviricota	Pokkesviricetes	Chitovirales	Poxviridae	Alphaentomopoxvirus	Anomala cuprea entomopoxvirus	1	0
@@ -117,6 +126,196 @@ Viruses	Peploviricota	Herviviricetes	Herpesvirales	Herpesviridae	Roseolovirus	Mu
 Viruses	Peploviricota	Herviviricetes	Herpesvirales	Herpesviridae	Varicellovirus	Bovine alphaherpesvirus 1	1	0
 Viruses	Pisuviricota	Pisoniviricetes	Picornavirales	Picornaviridae	Malagasivirus	Malagasivirus B	1	0
 Viruses	Pisuviricota	Pisoniviricetes	Sobelivirales	Solemoviridae	Sobemovirus	Physalis rugose mosaic virus	1	0
+Viruses	Uroviricota	Caudoviricetes	-	-	Goslarvirus	Goslarvirus goslar	0	1
+Viruses	Uroviricota	Caudoviricetes	-	-	Wifcevirus	Wifcevirus ECML117	1	0
+Viruses	Uroviricota	Caudoviricetes	-	-	Wifcevirus	Wifcevirus FEC19	1	0
+Viruses	Uroviricota	Caudoviricetes	-	-	Wifcevirus	Wifcevirus WFC	1	0
+Viruses	Uroviricota	Caudoviricetes	-	-	Wifcevirus	Wifcevirus WFH	1	0
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Cyclitvirus	Cyclitvirus cyclit	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Drulisvirus	Drulisvirus BO1E	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Drulisvirus	Drulisvirus F19	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Drulisvirus	Drulisvirus K244	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Drulisvirus	Drulisvirus KP34	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Drulisvirus	Drulisvirus KPRio2015	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Drulisvirus	Drulisvirus KPV811	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Drulisvirus	Drulisvirus Kp2	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Drulisvirus	Drulisvirus KpS2	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Drulisvirus	Drulisvirus KpV41	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Drulisvirus	Drulisvirus KpV475	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Drulisvirus	Drulisvirus KpV48	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Drulisvirus	Drulisvirus KpV71	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Drulisvirus	Drulisvirus KpV74	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Drulisvirus	Drulisvirus SFN6B	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Drulisvirus	Drulisvirus SU503	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Drulisvirus	Drulisvirus SU552A	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Drulisvirus	Drulisvirus altogao	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Drulisvirus	Drulisvirus minorna	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Drulisvirus	Drulisvirus myPSH1235	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Friunavirus	Friunavirus AbKT21III	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Jerseyvirus	Jerseyvirus AG11	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Jerseyvirus	Jerseyvirus Ent1	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Jerseyvirus	Jerseyvirus LSPA1	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Jerseyvirus	Jerseyvirus SE2	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Jerseyvirus	Jerseyvirus SETP7	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Jerseyvirus	Jerseyvirus SP101	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Jerseyvirus	Jerseyvirus jersey	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Jerseyvirus	Salmonella phage vB_SenS-Ent2	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Kagunavirus	Kagunavirus K1G	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Kagunavirus	Kagunavirus K1H	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Kagunavirus	Kagunavirus K1ind1	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Kagunavirus	Kagunavirus K1ind2	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Kagunavirus	Kagunavirus RP180	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Kagunavirus	Kagunavirus golestan	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Kakivirus	Kakivirus PS3	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Koutsourovirus	Koutsourovirus KDA1	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Pifdecavirus	Pifdecavirus UNOSLW1	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Wifcevirus	Wifcevirus ECML117	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Wifcevirus	Wifcevirus FEC19	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Wifcevirus	Wifcevirus WFC	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Autographiviridae	Wifcevirus	Wifcevirus WFH	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Casjensviridae	Cecivirus	Cecivirus IEBH	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Casjensviridae	Chivirus	Chivirus iEPS5	1	1
+Viruses	Uroviricota	Caudoviricetes	-	Casjensviridae	Efquatrovirus	Clostridium phage phiCT19406C	1	0
+Viruses	Uroviricota	Caudoviricetes	-	Casjensviridae	Efquatrovirus	Clostridium phage phiCT453A	1	0
+Viruses	Uroviricota	Caudoviricetes	-	Casjensviridae	Efquatrovirus	Cyanophage MED4-117	1	0
+Viruses	Uroviricota	Caudoviricetes	-	Casjensviridae	Efquatrovirus	Efquatrovirus LY0322	1	0
+Viruses	Uroviricota	Caudoviricetes	-	Casjensviridae	Efquatrovirus	Geobacillus virus E3	1	0
+Viruses	Uroviricota	Caudoviricetes	-	Casjensviridae	Efquatrovirus	Lactobacillus phage Lv-1	1	0
+Viruses	Uroviricota	Caudoviricetes	-	Casjensviridae	Efquatrovirus	Streptococcus phage PH10	1	0
+Viruses	Uroviricota	Caudoviricetes	-	Casjensviridae	Efquatrovirus	Vibrio phage VPMS1	1	0
+Viruses	Uroviricota	Caudoviricetes	-	Casjensviridae	Henunavirus	Henunavirus hena1	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Casjensviridae	Lederbergvirus	Enterobacteria phage IME10	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Casjensviridae	Lederbergvirus	Lederbergvirus Sf6	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Casjensviridae	Macdonaldcampvirus	Macdonaldcampvirus SB28	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Casjensviridae	Macdonaldcampvirus	Macdonaldcampvirus ViIIE1	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Casjensviridae	Sharonstreetvirus	Sharonstreetvirus A18P4	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Demerecviridae	Buchananvirus	Buchananvirus Sa179lw	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Demerecviridae	Byrnievirus	Byrnievirus HK97	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Demerecviridae	Caminolopintovirus	Caminolopintovirus STGO351	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Demerecviridae	Deseoctovirus	Deseoctovirus C1	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Demerecviridae	Deseoctovirus	Deseoctovirus DS8	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Demerecviridae	Harrisonburgvirus	Harrisonburgvirus persinger	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Demerecviridae	Manovirus	Manovirus Mano	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Demerecviridae	Pushchinovirus	Pushchinovirus B83	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Demerecviridae	Rockvillevirus	Klebsiella phage BUCT610	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Demerecviridae	Rockvillevirus	Klebsiella phage YX3973	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Demerecviridae	Rockvillevirus	Planktothrix phage PaV-LD	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Demerecviridae	Rockvillevirus	Rockvillevirus phi4J1	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Demerecviridae	Rockvillevirus	Streptomyces phage KimJongPhill	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Demerecviridae	Segzyvirus	Segzyvirus segz1	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Demerecviridae	Shenzhenvirus	Shenzhenvirus AhSzq1	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Demerecviridae	Swiduovirus	Swiduovirus swi2	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Demerecviridae	Tequintavirus	Tequintavirus fp01	1	1
+Viruses	Uroviricota	Caudoviricetes	-	Demerecviridae	Wanchaivirus	Wanchaivirus HK106	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Herelleviridae	Twortvirus	Twortvirus twort	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Herelleviridae	Wphvirus	Wphvirus WPh	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Kyanoviridae	Neptunevirus	Neptunevirus srim18	1	0
+Viruses	Uroviricota	Caudoviricetes	-	Kyanoviridae	Nodensvirus	Nodensvirus spm2	1	0
+Viruses	Uroviricota	Caudoviricetes	-	Kyanoviridae	Sokavirus	Synechococcus phage S-SZBM1	1	0
+Viruses	Uroviricota	Caudoviricetes	-	Peduoviridae	-	Aeromonas phage vB_AsaM_LPM4	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Peduoviridae	-	Shewanella phage vB_SspM_M16-3	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Peduoviridae	Anjalivirus	Anjalivirus mendel	1	0
+Viruses	Uroviricota	Caudoviricetes	-	Peduoviridae	Bielevirus	Bielevirus phiO18P	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Peduoviridae	Eganvirus	Eganvirus EtG	1	1
+Viruses	Uroviricota	Caudoviricetes	-	Peduoviridae	Eganvirus	Eganvirus ev186	1	0
+Viruses	Uroviricota	Caudoviricetes	-	Peduoviridae	Peduovirus	Escherichia phage 11W	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Peduoviridae	Peduovirus	Peduovirus P2	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Peduoviridae	Peduovirus	Peduovirus YPM50	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Peduoviridae	Peduovirus	Peduovirus magyaro	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Peduoviridae	Valbvirus	Valbvirus ValB1MD2	1	1
+Viruses	Uroviricota	Caudoviricetes	-	Peduoviridae	Wongtaivirus	Wongtaivirus ECP1	1	0
+Viruses	Uroviricota	Caudoviricetes	-	Peduoviridae	Xuanwuvirus	Xuanwuvirus P88	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Rountreeviridae	Andhravirus	Andhravirus andhra	1	1
+Viruses	Uroviricota	Caudoviricetes	-	Rountreeviridae	Camtrevirus	Camtrevirus BtCS33	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Rountreeviridae	Camtrevirus	Camtrevirus CM3	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Rountreeviridae	Camtrevirus	Camtrevirus S3501	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Rountreeviridae	Cedarrivervirus	Cedarrivervirus Sf11	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Rountreeviridae	Minhovirus	Minhovirus IME199	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Rountreeviridae	Rosenblumvirus	Rosenblumvirus CSA13	1	1
+Viruses	Uroviricota	Caudoviricetes	-	Rountreeviridae	Skatevirus	Skatevirus KFSSE2	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Rountreeviridae	Skatevirus	Skatevirus LPST10	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Rountreeviridae	Skatevirus	Skatevirus SeSz2	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Rountreeviridae	Skatevirus	Skatevirus Seszw1	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Rountreeviridae	Skatevirus	Skatevirus VSt472	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Carettavirus	Carettavirus e142	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Dhakavirus	Dhakavirus anyang	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Dhakavirus	Dhakavirus ecom005	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Dhakavirus	Dhakavirus ql01	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Gaprivervirus	Escherichia phage vB_EcoM_RZ	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Gaprivervirus	Gaprivervirus vr26	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Gaprivervirus	Gaprivervirus vr7	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Karamvirus	Karamvirus pg7	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Mosigvirus	Mosigvirus 25307	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Mosigvirus	Mosigvirus hp3	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Escherichia virus slur04	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus RB14	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus RB18	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus RB27	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus RB3	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus RB32	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus T2	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus T6	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus cf2	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus cm8	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus cromcrrp10	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus deeone	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus e112	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus ec04	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus ec121	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus ecml134	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus ecnp1	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus ecombl75	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus ecomdalca	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus ecomg28	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus ecomim339	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus ecomime340	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus ecomnbg2	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus ecomufv133	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus effone	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus fps2	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus fps65	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus fps90	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus gee4498	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus gee4507	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus gee50	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus gee9062	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus geeight	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus gizh	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus hy01	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus hy03	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus ime09	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus ime537	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus kaw	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus kha5h	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus kit03	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus knp5	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus lutter	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus nbeco	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus oe5505	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus ozark	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus pe37	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus pp01	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus pss1	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus pst	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus pyps2t	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus sf21	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus sf22	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus sf23	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus sgallinarium	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus sh7	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus shfl2	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus shfml11	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus shfml26	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus slur07	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus snuabm	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus teqhad	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus teqskov	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus ufvareg1	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus vtec	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus zeen18	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus zeezeesix	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Tequatrovirus	Tequatrovirus zeezeethirty	0	1
+Viruses	Uroviricota	Caudoviricetes	-	Straboviridae	Zedzedvirus	Zedzedvirus zz1	0	1
 Viruses	Uroviricota	Caudoviricetes	Crassvirales	Ackermannviridae	Akiravirus	Akiravirus akira	0	1
 Viruses	Uroviricota	Caudoviricetes	Crassvirales	Ackermannviridae	Britbratvirus	Britbratvirus britbrat	1	0
 Viruses	Uroviricota	Caudoviricetes	Crassvirales	Ackermannviridae	Eneladusvirus	Eneladusvirus Yen904	1	0
@@ -127,6 +326,7 @@ Viruses	Uroviricota	Caudoviricetes	Crassvirales	Ackermannviridae	Unaquatrovirus	
 Viruses	Uroviricota	Caudoviricetes	Crassvirales	Ackermannviridae	Vapseptimavirus	Vapseptimavirus VAP7	0	1
 Viruses	Uroviricota	Caudoviricetes	Crassvirales	Autographiviridae	Maenadvirus	Maenadvirus P1	1	0
 Viruses	Uroviricota	Caudoviricetes	Crassvirales	Autographiviridae	Moabitevirus	Moabitevirus moabite	1	0
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	Guelinviridae	-	Clostridium phage LPCPA6	1	0
 Viruses	Uroviricota	Caudoviricetes	Crassvirales	Herelleviridae	Kayvirus	Kayvirus P108	1	0
 Viruses	Uroviricota	Caudoviricetes	Crassvirales	Herelleviridae	Mooreparkvirus	Mooreparkvirus Lb3381	1	0
 Viruses	Uroviricota	Caudoviricetes	Crassvirales	Herelleviridae	Nitunavirus	Nitunavirus NIT1	1	0

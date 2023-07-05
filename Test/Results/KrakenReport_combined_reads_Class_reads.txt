@@ -1,20 +1,22 @@
 Domain	Phylum	Class	Test_control	Test_sample	%-Test_control	%-Test_sample
-Archaea	Candidatus Thermoplasmatota	Thermoplasmata	0	9	0.0000	0.0000
-Archaea	Euryarchaeota	Archaeoglobi	0	3	0.0000	0.0000
-Archaea	Euryarchaeota	Candidatus Methanoliparia	0	1	0.0000	0.0000
-Archaea	Euryarchaeota	Halobacteria	0	98	0.0000	0.0000
-Archaea	Euryarchaeota	Methanobacteria	0	13	0.0000	0.0000
-Archaea	Euryarchaeota	Methanococci	0	8	0.0000	0.0000
-Archaea	Euryarchaeota	Methanomicrobia	0	34	0.0000	0.0000
-Archaea	Euryarchaeota	Thermococci	0	28	0.0000	0.0000
-Archaea	Nitrososphaerota	Nitrososphaeria	0	6	0.0000	0.0000
-Archaea	Thermoproteota	Thermoprotei	0	13	0.0000	0.0000
-Eukaryota	Chordata	Mammalia	3791	1628	0.0027	0.0001
-Viruses	Negarnaviricota	Ellioviricetes	2	0	0.0000	0.0000
-Viruses	Negarnaviricota	Naldaviricetes	12	0	0.0000	0.0000
-Viruses	Nucleocytoviricota	Megaviricetes	43	3	0.0000	0.0000
-Viruses	Nucleocytoviricota	Naldaviricetes	0	2	0.0000	0.0000
-Viruses	Nucleocytoviricota	Pokkesviricetes	5	4	0.0000	0.0000
-Viruses	Peploviricota	Herviviricetes	6	0	0.0000	0.0000
-Viruses	Pisuviricota	Pisoniviricetes	8	0	0.0000	0.0000
-Viruses	Uroviricota	Caudoviricetes	10426	234957	0.0073	0.0099
+Archaea	Candidatus Thermoplasmatota	Thermoplasmata	0	9	0.0000	0.0033
+Archaea	Euryarchaeota	Archaeoglobi	0	3	0.0000	0.0011
+Archaea	Euryarchaeota	Candidatus Methanoliparia	0	1	0.0000	0.0004
+Archaea	Euryarchaeota	Halobacteria	0	99	0.0000	0.0367
+Archaea	Euryarchaeota	Methanobacteria	0	13	0.0000	0.0048
+Archaea	Euryarchaeota	Methanococci	0	8	0.0000	0.0030
+Archaea	Euryarchaeota	Methanomicrobia	0	34	0.0000	0.0126
+Archaea	Euryarchaeota	Thermococci	0	28	0.0000	0.0104
+Archaea	Nitrososphaerota	-	0	7	0.0000	0.0026
+Archaea	Nitrososphaerota	Nitrososphaeria	0	6	0.0000	0.0022
+Archaea	Thermoproteota	Thermoprotei	0	14	0.0000	0.0052
+Eukaryota	Chordata	Mammalia	3791	1628	26.5049	0.6036
+Viruses	-	-	0	5	0.0000	0.0019
+Viruses	Negarnaviricota	Ellioviricetes	2	0	0.0140	0.0000
+Viruses	Negarnaviricota	Naldaviricetes	12	0	0.0839	0.0000
+Viruses	Nucleocytoviricota	Megaviricetes	47	3	0.3286	0.0011
+Viruses	Nucleocytoviricota	Naldaviricetes	0	2	0.0000	0.0007
+Viruses	Nucleocytoviricota	Pokkesviricetes	5	4	0.0350	0.0015
+Viruses	Peploviricota	Herviviricetes	6	0	0.0419	0.0000
+Viruses	Pisuviricota	Pisoniviricetes	8	0	0.0559	0.0000
+Viruses	Uroviricota	Caudoviricetes	10432	267839	72.9357	99.3089

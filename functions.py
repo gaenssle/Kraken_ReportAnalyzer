@@ -94,7 +94,7 @@ def get_report(input_file, folder, name):
 	previous = 0
 	for line in data:
 		line = line.split("\t")
-		line[3].replace("K", "D1") # Viruses & Eukaryota have kingdoms level beneath the domain level
+		line[3] = line[3].replace("K", "D1") # Viruses & Eukaryota have kingdoms level beneath the domain level
 
 		# Append classfied/unclassified to summary table
 		if line[3] in classified:
@@ -173,7 +173,8 @@ def count_taxonomy(input_file, output_folder, cutoff, float_format, create_excel
 	for level in range(len(level_list)):
 		output_file = os.path.join(output_folder, os.path.split(input_file)[1].rsplit(".",1)[0] + "_" + level_list[level])
 		reads = reads_df.groupby(level_list[:level+1], as_index=False)[sample_list + percentage_list].sum()
-		species = reads_df.groupby(level_list[:level+1], as_index=False)[sample_list].count()
+		species = reads_df[(reads_df[level_list[-1]] != "-")]	# delete all rows that aren't species
+		species = species.groupby(level_list[:level+1], as_index=False)[sample_list].count()
 
 		# For all levels > "Domain" filter out all rows where none of the samples have reads > the _cutoff
 		# Sum the filtered out rows as "Other" and add them to the original dataframe

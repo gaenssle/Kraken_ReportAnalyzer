@@ -2,15 +2,15 @@ Domain	Phylum	Class	Order	Test_control	Test_sample
 Archaea	Candidatus Thermoplasmatota	Thermoplasmata	Thermoplasmatales	0	1
 Archaea	Euryarchaeota	Archaeoglobi	Archaeoglobales	0	2
 Archaea	Euryarchaeota	Candidatus Methanoliparia	Candidatus Methanoliparales	0	1
-Archaea	Euryarchaeota	Halobacteria	Halobacteriales	0	27
-Archaea	Euryarchaeota	Halobacteria	Haloferacales	0	13
+Archaea	Euryarchaeota	Halobacteria	Halobacteriales	0	23
+Archaea	Euryarchaeota	Halobacteria	Haloferacales	0	9
 Archaea	Euryarchaeota	Halobacteria	Natrialbales	0	13
 Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	0	5
 Archaea	Euryarchaeota	Methanococci	Methanococcales	0	4
-Archaea	Euryarchaeota	Methanomicrobia	Methanomicrobiales	0	6
-Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	0	10
-Archaea	Euryarchaeota	Methanomicrobia	Methanotrichales	0	1
+Archaea	Euryarchaeota	Methanomicrobia	Methanomicrobiales	0	5
+Archaea	Euryarchaeota	Methanomicrobia	Methanosarcinales	0	9
 Archaea	Euryarchaeota	Thermococci	Thermococcales	0	6
+Archaea	Nitrososphaerota	-	Nitrosopumilales	0	5
 Archaea	Nitrososphaerota	Nitrososphaeria	Nitrososphaerales	0	4
 Archaea	Thermoproteota	Thermoprotei	Sulfolobales	0	2
 Archaea	Thermoproteota	Thermoprotei	Thermoproteales	0	4
@@ -18,13 +18,15 @@ Eukaryota	Chordata	Mammalia	Primates	1	1
 Viruses	Negarnaviricota	Ellioviricetes	Bunyavirales	2	0
 Viruses	Negarnaviricota	Naldaviricetes	Lefavirales	8	0
 Viruses	Nucleocytoviricota	Megaviricetes	Algavirales	3	1
-Viruses	Nucleocytoviricota	Megaviricetes	Imitervirales	2	2
+Viruses	Nucleocytoviricota	Megaviricetes	Imitervirales	2	1
 Viruses	Nucleocytoviricota	Megaviricetes	Pimascovirales	3	0
+Viruses	Nucleocytoviricota	Naldaviricetes	-	0	1
 Viruses	Nucleocytoviricota	Naldaviricetes	Lefavirales	0	1
 Viruses	Nucleocytoviricota	Pokkesviricetes	Asfuvirales	0	1
 Viruses	Nucleocytoviricota	Pokkesviricetes	Chitovirales	2	3
 Viruses	Peploviricota	Herviviricetes	Herpesvirales	3	0
 Viruses	Pisuviricota	Pisoniviricetes	Picornavirales	1	0
 Viruses	Pisuviricota	Pisoniviricetes	Sobelivirales	1	0
-Viruses	Uroviricota	Caudoviricetes	Crassvirales	33	5
-Viruses	Uroviricota	Caudoviricetes	Thumleimavirales	0	9
+Viruses	Uroviricota	Caudoviricetes	-	24	172
+Viruses	Uroviricota	Caudoviricetes	Crassvirales	27	4
+Viruses	Uroviricota	Caudoviricetes	Thumleimavirales	0	7

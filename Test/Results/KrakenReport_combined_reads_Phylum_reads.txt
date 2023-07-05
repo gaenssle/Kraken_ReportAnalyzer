@@ -1,11 +1,12 @@
 Domain	Phylum	Test_control	Test_sample	%-Test_control	%-Test_sample
-Archaea	Candidatus Thermoplasmatota	0	9	0.0000	0.0000
-Archaea	Euryarchaeota	0	185	0.0000	0.0000
-Archaea	Nitrososphaerota	0	13	0.0000	0.0000
-Archaea	Thermoproteota	0	13	0.0000	0.0000
-Eukaryota	Chordata	3791	1628	0.0027	0.0001
-Viruses	Negarnaviricota	14	0	0.0000	0.0000
-Viruses	Nucleocytoviricota	48	9	0.0000	0.0000
-Viruses	Peploviricota	6	0	0.0000	0.0000
-Viruses	Pisuviricota	8	0	0.0000	0.0000
-Viruses	Uroviricota	10426	234957	0.0073	0.0099
+Archaea	Candidatus Thermoplasmatota	0	9	0.0000	0.0033
+Archaea	Euryarchaeota	0	186	0.0000	0.0690
+Archaea	Nitrososphaerota	0	13	0.0000	0.0048
+Archaea	Thermoproteota	0	14	0.0000	0.0052
+Eukaryota	Chordata	3791	1628	26.5049	0.6036
+Viruses	-	0	5	0.0000	0.0019
+Viruses	Negarnaviricota	14	0	0.0979	0.0000
+Viruses	Nucleocytoviricota	52	9	0.3636	0.0033
+Viruses	Peploviricota	6	0	0.0419	0.0000
+Viruses	Pisuviricota	8	0	0.0559	0.0000
+Viruses	Uroviricota	10432	267839	72.9357	99.3089
