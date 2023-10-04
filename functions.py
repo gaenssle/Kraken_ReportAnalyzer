@@ -12,7 +12,7 @@ import pandas as pd
 ## Print header
 def print_header():
 	print("\n","-"*75,"\n","-"*75)
-	print("\tTHE KRONA DATA EXTRACTOR\tby A.L.O. Gaenssle, 2023")
+	print("\tTHE KRAKEN REPORT EXTRACTOR\tby A.L.O. Gaenssle, 2023")
 	print("", "-"*75,"\n")
 
 
